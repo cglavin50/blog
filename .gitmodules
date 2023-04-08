@@ -1,0 +1,4 @@
+[submodule "cooperglavin/public"]
+	path = cooperglavin/public
+	url = https://github.com/cglavin50/cglavin50.github.io.git
+	branch = main
