@@ -1,5 +1,5 @@
 +++
-title = "MongoDBAtlas"
+title = "MongoDB Atlas"
 date = "2023-04-09T20:23:48-04:00"
 author = ""
 authorTwitter = "" #do not include @
@@ -19,4 +19,5 @@ MongoDB offers a cloud-based option called Atlas, which comes with a Hobbyist ti
 ### Pain Points
 I've never managed user/passwords over URLs, so I needed to learn about URL encoding to make sure everything was protected. The MongoDB client implicitly will run a TLS handshake so there's encryption there, but to deal with special characters, I used the URL.QueryString and URL.Values.Encode functions to embed the the authentication into the URI string.
 Another pain point I encountered was dealing with my internets subnetting scheme. As I live on-campus, the network I access from leads to tons of issues with permissions, so I tried to debug what range of acceptable IPs would work with Atlas. Starting with 0.0.0.0, I eventually figured out that Georgetown maintains a /16 instead of a /17, which after updating seemed to fix my issues.
+One last aside, I also learned how to properly manage cron jobs, and set up a bash script that should backup (ex commit and push) the repos for this blog every day, so I can just create the posts and not worry about commiting and everything before I log off for the day.
 All in all this was a busy day with not a ton of time to code, so I didn't run into that many noteworthy topics. Now that I've set the DB to be able to run independently of the actual web app, I'm going to look into creating a Docker image for this whole project.

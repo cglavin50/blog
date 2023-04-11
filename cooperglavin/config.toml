@@ -81,7 +81,7 @@ paginate = 5
     words = "words"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Cooper's Dev Blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -90,6 +90,10 @@ paginate = 5
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog Posts"
+        url = "/"
