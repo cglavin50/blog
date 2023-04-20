@@ -12,7 +12,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
-As Go has increasingly become my go-to langauge for backend projects, I figured I should brush up on it's fundamentals, and what better way to make sure you learned something that to teach it? As such I'm planning to make my series of blog posts over the next week Go-related, continuing from my (Channels article)[https://cglavin50.github.io/posts/channels/] last week. Today's topic: Marshalling
+As Go has increasingly become my go-to langauge for backend projects, I figured I should brush up on it's fundamentals, and what better way to make sure you learned something that to teach it? As such I'm planning to make my series of blog posts over the next week Go-related, continuing from my [Channels article](https://cglavin50.github.io/posts/channels/) last week. Today's topic: Marshalling
 
 # What is Marshalling?
 
@@ -29,7 +29,7 @@ import (
     "fmt"
 )
 ```
-Next, let's define a struct that we want to use, say a task for a (To-Do List Project)[https://github.com/cglavin50/to-do.git].
+Next, let's define a struct that we want to use, say a task for a [To-Do List Project](https://github.com/cglavin50/to-do.git).
 ```
 type Task struct {
     ID          int

@@ -1,5 +1,5 @@
 +++
-title = "Channels"
+title = "Go Fundamentals: Channels"
 date = "2023-04-18T00:02:09-04:00"
 author = ""
 authorTwitter = "" #do not include @
