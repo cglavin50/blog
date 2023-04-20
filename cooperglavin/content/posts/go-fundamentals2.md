@@ -12,7 +12,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
-While these will be published out of order, this is the intro to Go fundamentals article, covering what Go (or Golang) is, why you should use it, as well as some key concepts to know. While my other articles on Go fundamentals about (channels)[https://cglavin50.github.io/posts/channels/] and (marshalling)[https://cglavin50.github.io/posts/go-fundamentals/] will be more specific, this article will cover a broad base around Go.
+While these will be published out of order, this is the intro to Go fundamentals article, covering what Go (or Golang) is, why you should use it, as well as some key concepts to know. While my other articles on Go fundamentals about [channels](https://cglavin50.github.io/posts/channels/) and [marshalling](https://cglavin50.github.io/posts/go-fundamentals/) will be more specific, this article will cover a broad base around Go.
 
 # What is Go?
 
